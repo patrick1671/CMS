@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background: hsl(240, 25%, 20%);
+  color: white;
+}
+.table {
+  color: white !important;
+}
+.nav-container {
+  margin: 0 auto;
+  height: 70px;
+  background: #262626;
+}
+
+.logout-button a {
+  float: right;
+  text-decoration: none;
+  margin: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #ffffff;
+  line-height: 70px;
+}
+.logout-button a:hover {
+  background: #2581dc;
+}
+
+.button-34 {
+  margin-left: 306px;
+  background: #4242aa;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 15px 56px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}

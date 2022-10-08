@@ -1,4 +1,4 @@
-# RekrutacyjneCMS
+# CMS
 Admin Login: 'qwe'
 
 

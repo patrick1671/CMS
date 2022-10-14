@@ -25,8 +25,11 @@ class ManageMovies extends Db{
       
         $imgContent=$this->editPhoto($image);
        
-        
+        if($imgContent!=null){
         $stmt=$this->connect()->prepare("UPDATE movies SET en_title=$en_title,pl_title=$pl_title,en_description=$en_description,pl_description=$pl_description,movie_premiere=$premiere_date,movie_photo='$imgContent' WHERE id=$movieId");
+        }else{
+            $stmt=$this->connect()->prepare("UPDATE movies SET en_title=$en_title,pl_title=$pl_title,en_description=$en_description,pl_description=$pl_description,movie_premiere=$premiere_date WHERE id=$movieId");
+        }
         $stmt->execute();
         
     }

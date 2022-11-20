@@ -1,7 +1,7 @@
 <?php
 session_start();
 include "../DatabaseConnect/Db.php";
-require_once('./adminListcomponent.php');
+require_once('./adminListComponent.php');
 include "../UserPanel/GetData.php";
 
 ?>

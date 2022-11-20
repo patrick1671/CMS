@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php 
-require_once("../Include/navbar.php");
+require_once("../Include/navBar.php");
 $langTab=["Zaloguj się","Login","Hasło","Wyślij","Złe dane"];
 
 if(isset($_GET["lang"]) && $_GET["lang"]=="pl" ){

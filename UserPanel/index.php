@@ -19,7 +19,7 @@ require_once('./component.php');
   </head>
   <body>
   <?php
-    require_once("../Include/navbar.php");
+    require_once("../Include/navBar.php");
   ?>
   <ul class='auto-grid'>
     <?php 
